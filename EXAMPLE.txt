@@ -1,0 +1,38 @@
+#) Preparing
+First, make sure You have installed the required module...
+~) Windows:
+    C:\Folders\FaceBroke\> pip install -r requirements.txt
+         or
+    C:\Folders\FaceBroke\> pip2 install -r requirements.txt
+~) Linux:
+    $ pip install -r requirements.txt
+         or
+    $ pip2 install -r requirements.txt
+
+#) How to Use ??? :
+How to use this Tool? check this Tutorial below
+1) Show help:
+   $ python FaceBroke.py --help
+2) Set Target to Attack:
+   $ python FaceBroke.py --target=example@mail.com
+     or
+   $ python FaceBroke.py --target=+6285300001010
+     or
+   $ python FaceBroke.py --target=11030419014... (Facebook's ID)
+3) Set Target and Wordlist:
+   $ python FaceBroke.py --target=example@mail.com --wlist=/root/folders/wordtext.txt
+
+
+#) Default configuration:
+target: <none> (Need to set)
+wordlist: ./wordlist/mxact666_password.txt (default wordlist)
+
+So...don't forget to specify the Target :)
+For simple attack, You just need to specify the Target (Email,
+Facebook's ID, or Phone Number)
+
+If You're using VPN and use Phone Number to Attack...
+make sure You use the number Domain...example:
++1 = for America
++62 = for Indonesia
+etc :)
